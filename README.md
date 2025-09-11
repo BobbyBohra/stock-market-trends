@@ -1,1 +1,1 @@
-# animal-classification-model
+# Stock market trends
