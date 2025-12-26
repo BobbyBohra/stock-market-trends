@@ -8,7 +8,7 @@ import time
 
 # Function to fetch stock data and update graph
 def plot_stock_data():
-    time.sleep(15)  # हर API कॉल के बीच 15 सेकंड का ब्रेक
+    time.sleep(15)  
     stock_symbol = symbol_entry.get().strip().upper()
 
     if not stock_symbol:
@@ -58,7 +58,7 @@ def plot_stock_data():
         canvas.draw()
 
         # Auto-refresh every 90 seconds
-        root.after(90000, plot_stock_data)  # अब डेटा हर 90 सेकंड बाद अपडेट होगा
+        root.after(90000, plot_stock_data) 
 
     except Exception as e:
         messagebox.showerror("❌ Error", f"Error fetching data: {str(e)}")
@@ -113,3 +113,4 @@ canvas.get_tk_widget().pack(pady=15)
 
 # Run the GUI
 root.mainloop()
+
