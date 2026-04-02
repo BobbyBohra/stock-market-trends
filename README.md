@@ -35,6 +35,5 @@ It includes complete data preprocessing, visualization, model building, and tren
 
 ---
 
-## 📂 Project Structure
 
 
